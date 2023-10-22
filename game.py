@@ -28,4 +28,6 @@ while not game_over:
         display.clear()
 
 # Show the final score at the end of the game
-display.show(score)
+while score == score:
+   display.show(score)
+   time.sleep(1)
